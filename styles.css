@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url(Assets/HD-wallpaper-whatsapp-l-background-doodle-pattern-patterns.jpg);
+}
+
+.logo{
+    width:60px;
+    margin-left:5px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.searchInput{
+    width:150px;
+    border-radius:5px 5px;
+    height:25px;
+}
+
+.input-with-icon {
+    position: relative;
+  }
+  .input-with-icon input {
+    padding-left: 30px; 
+  }
+  .input-with-icon .icon {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+#button2 , #button{
+    background-color: antiquewhite;
+    color:black;
+    padding:5px;
+    width:80px;
+    height:30px;
+    border-radius: 20px 20px;
+}
+
+#button2 a {
+    text-decoration: none;
+    color:black;
+}
+
+#button {
+    height:50px !important;
+}
+
+#message-container{
+    display: flex;
+    align-items: center;
+}
+
+#messageInput {
+    width:450px;
+    height:60px;
+    border-radius: 5px 5px;
+    padding:5px;
+    margin:10px;
+}
